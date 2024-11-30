@@ -1,10 +1,12 @@
+import CustomSelect from '../molecules/CustomSelect';
 import MapContent from '../molecules/MapContent';
-import SectionScreenLayout from '../templates/SectionScreenLayout';
+import SectionLayout from '../templates/SectionLayout';
 
-export default function MapSection({}) {
+export default function MapSection() {
   return (
-    <SectionScreenLayout>
+    <SectionLayout>
+      <CustomSelect />
       <MapContent />
-    </SectionScreenLayout>
+    </SectionLayout>
   );
 }

@@ -1,3 +1,3 @@
 export default function PageLayout({ children }) {
-  return <div>{children}</div>;
+  return <div className="pt-10">{children}</div>;
 }
